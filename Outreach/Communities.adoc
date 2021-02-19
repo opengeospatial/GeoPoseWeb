@@ -1,6 +1,6 @@
 # Communities
 
-Members of the GeoPose SWG reach out and share updates about the specification and the SWG's achievements with the following communities.
+In addition to informing OGC members, members of the GeoPose SWG reach out and share updates about the specification and the SWG's achievements with the following communities.
 
 ## Open AR Cloud
 
@@ -22,4 +22,4 @@ Christine Perey is the leader of the Interoperability and Standards Program lead
 
 The https://www.etsi.org/committee/1420-arf[ETSI ISG ARF] is defining a modular framework for the interoperability of Augmented Reality (AR) components, systems and services that specifies relevant components and interfaces required for an AR solution. Currently, the ISG is working on definition of interoperability requirements for World Capture Function.
 
-Christine Perey is a member of the ETSI ISG ARF. 
+Christine Perey is a member of the ETSI ISG ARF.
