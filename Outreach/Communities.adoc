@@ -1,0 +1,25 @@
+# Communities
+
+Members of the GeoPose SWG reach out and share updates about the specification and the SWG's achievements with the following communities.
+
+## Open AR Cloud
+
+The http://openarcloud.org[Open AR Cloud] is an open association focusing on development of open and interoperable spatial computing technology, data and standards to connect the physical and digital worlds for the benefit of all. Jan-Erik Vinje, co-chair of the GeoPose SWG is executive director of the OARC.
+
+On Feb 13, a link to the GeoPose GitHub was posted on the OARC Discord #GeoPose channel.
+
+## W3C Immersive Web Working Group
+
+The https://www.w3.org/immersive-web/[W3C Immersive Web Working Group] is helping to bring high-performance Virtual Reality (VR) and Augmented Reality (AR) (collectively known as XR) to the open Web via APIs to interact with XR devices and sensors in browsers. Trevor F Smith is member of W3C Immersive Web community and working groups. On February 16, Trevor shared with IWWG members during a WG meeting that the GeoPose draft spec has been published.
+
+## AR for Enterprise Alliance Interoperability and Standards Program
+
+The https://thearea.org/interoperability-and-standards/[AR for Enterprise Alliance Interoperability and Standards Program] seeks to increase knowledge about the benefits and approaches to achieving interoperability and to advance the development of standards or other approaches to interoperability in Augmented Reality components, products and services.
+
+Christine Perey is the leader of the Interoperability and Standards Program leader and will share.
+
+## ETSI Industry Specification Group on AR
+
+The https://www.etsi.org/committee/1420-arf[ETSI ISG ARF] is defining a modular framework for the interoperability of Augmented Reality (AR) components, systems and services that specifies relevant components and interfaces required for an AR solution. Currently, the ISG is working on definition of interoperability requirements for World Capture Function.
+
+Christine Perey is a member of the ETSI ISG ARF. 
