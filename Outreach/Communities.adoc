@@ -10,16 +10,26 @@ On Feb 13, a link to the GeoPose GitHub was posted on the OARC Discord #GeoPose 
 
 ## W3C Immersive Web Working Group
 
-The https://www.w3.org/immersive-web/[W3C Immersive Web Working Group] is helping to bring high-performance Virtual Reality (VR) and Augmented Reality (AR) (collectively known as XR) to the open Web via APIs to interact with XR devices and sensors in browsers. Trevor F Smith is member of W3C Immersive Web community and working groups. On February 16, Trevor shared with IWWG members during a WG meeting that the GeoPose draft spec has been published.
+The https://www.w3.org/immersive-web/[W3C Immersive Web Working Group] is helping to bring high-performance Virtual Reality (VR) and Augmented Reality (AR) (collectively known as XR) to the open Web via APIs to interact with XR devices and sensors in browsers. Trevor F Smith is member of W3C Immersive Web community and working groups. On February 16, Trevor suggested during a SWG meeting that he would be sharing that the GeoPose draft spec has been released with IWWG members.
 
 ## AR for Enterprise Alliance Interoperability and Standards Program
 
 The https://thearea.org/interoperability-and-standards/[AR for Enterprise Alliance Interoperability and Standards Program] seeks to increase knowledge about the benefits and approaches to achieving interoperability and to advance the development of standards or other approaches to interoperability in Augmented Reality components, products and services.
 
-Christine Perey is the leader of the Interoperability and Standards Program leader and will share.
+Christine Perey is the leader of the Interoperability and Standards Program leader and will share GeoPose GitHub in the next message she sends to the interested members.
 
 ## ETSI Industry Specification Group on AR
 
 The https://www.etsi.org/committee/1420-arf[ETSI ISG ARF] is defining a modular framework for the interoperability of Augmented Reality (AR) components, systems and services that specifies relevant components and interfaces required for an AR solution. Currently, the ISG is working on definition of interoperability requirements for World Capture Function.
 
 Christine Perey is a member of the ETSI ISG ARF.
+
+# Khronos Working Groups
+
+The http://www.khronos.org[Khronos Group] is an open industry consortium of over 150 leading hardware and software companies creating advanced royalty-free acceleration standards for 3D graphics Augmented and Virtual Reality vision and machine learning. Khronos standards include Vulkan® Vulkan® SC OpenGL® OpenGL® ES OpenGL® SC WebGL™ SPIR-V™ OpenCL™ SYCL™ OpenVX™ NNEF™ OpenXR™ 3D Commerce™ ANARI™ and glTF™.
+
+Christine Perey is a member of the Khronos Group OpenXR, 3D Formats, 3D Commerce WGs.
+
+# ISO/IEC JTC1 SC24 (MPEG)
+
+The https://www.mpegstandards.org/[Motion Pictures Experts Group (MPEG)] develops standards for coded representation of digital audio, video, 3D Graphics and genomic data. The https://www.iso.org/obp/ui/#iso:std:iso-iec:23093:-1:ed-1:v1:en[MPEG Internet of Media Things]
