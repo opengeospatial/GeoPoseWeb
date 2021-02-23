@@ -1,4 +1,4 @@
-# README
+# About GeoPose Outreach
 
 Outreach activities of the GeoPose SWG and its members are important to raising the awareness of GeoPose among members of communities and developers in companies who have requirements that can be met by GeoPose.
 
