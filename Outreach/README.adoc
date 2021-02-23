@@ -2,12 +2,14 @@
 
 Outreach activities of the GeoPose SWG and its members are important to raising the awareness of GeoPose among members of communities and developers in companies who have requirements that can be met by GeoPose.
 
-When the GeoPose web site is published, there will be a section listing those standards groups, communities of interest and companies who are exploring implementations, have implemented and/or are supporting the standard in other ways.
+On the GeoPose web site, there will be a section listing those standards groups, communities of interest and companies who are exploring implementations, have implemented and/or are supporting the standard in other ways.
 
 ## Contribute
 
-If you introduce GeoPose to interested parties in written form or during meetings, you are invited to include that in our outreach documentation by adding them to the lists.
+If you introduce GeoPose to interested parties in written form or during meetings, you are invited to add them/include that information in our outreach documentation by editing the relevant lists.
 
 ## Future Plans
 
-When the GeoPose web site is public and the GeoPose standard is ratified, the communities, companies and web sites where we have promoted the draft specification will be notified and provided with actions they can take (including but not limited to providing input and feedback to the SWG).
+We may merge the lists into one .adoc for simplicity.
+
+When the GeoPose web site is public and the GeoPose standard is ratified, the communities, companies and web sites where we have promoted the draft specification can be contacted/notified and provided with actions they can take (including but not limited to implementing GeoPose and providing input and feedback to the SWG).
