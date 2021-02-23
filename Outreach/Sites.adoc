@@ -4,6 +4,8 @@ Members of the GeoPose SWG reach out and share updates about the specification a
 
 # Weekly Spatial
 
-Published weekly by Ori Inbar to the AWEXR mailing list. Christine sent request to Ori on Feb 19.
+Published weekly by Ori Inbar to the AWEXR mailing list. Christine sent request to Ori on Feb 19. Geta has confirmed that the AWEXR will promote in mailing list and on social media.
 
-#
+# Twitter
+
+We will explore how to secure for the use of the SWG, the handle @GeoPose on Twitter.
