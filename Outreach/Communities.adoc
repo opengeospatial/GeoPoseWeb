@@ -18,7 +18,7 @@ The https://www.w3.org/WoT/WG/[W3C Web of Things Working Group] is tasked with t
 
 The Web of Things use cases include geolocated sensors and things. The profiles for geolocated things may include specification of GeoPose for encoding position and orientation.
 
-Christine Perey is a member of the WoT WG.
+Christine Perey and Rob Smith are members of the WoT WG. On Feb 24, Michael McCool shared via GitHub issue that he had carefully reviewed GeoPose draft and made his geolocation profile proposal consistent with it. Michael said there are various issues. 
 
 ## AR for Enterprise Alliance Interoperability and Standards Program
 
