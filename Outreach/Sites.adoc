@@ -2,17 +2,18 @@
 
 Members of the GeoPose SWG reach out and share updates about the specification and the SWG's achievements on the following web sites and newsletters.
 
-## Weekly Spatial
+## Newsletters
+### Weekly Spatial
 
 Published weekly by Ori Inbar to the AWEXR mailing list. Christine sent request to Ori on Feb 19. A link to the GeoPose GitHub repo "About GeoPose" readme and an announcement that the SWG welcomes input has been published to the WeeklySpatial list on February 26.
 
-## Immersive Web Weekly
+### Immersive Web Weekly
 
 On March 9, there will be a post about GeoPose in the newsletter.
 
-# Social Media
+## Social Media
 
-## Twitter
+### Twitter
 
 On Feb 23, the SWG co-chairs asked OGC how (if it would take steps) to secure for the use of the SWG, the handle @GeoPose on Twitter. Jan-Erik has sent a LinkedIn message to the owner of the handle @GeoPose but not received a reply (March 3).
 
