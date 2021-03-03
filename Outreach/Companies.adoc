@@ -2,6 +2,10 @@
 
 In addition to informing OGC members, members of the GeoPose SWG reach out and share updates about the specification and the SWG's achievements with the following companies:
 
-. Holo-Light
-. Cesium
-. 
+. Holo-Light (Jan-Erik and Christine)
+. Cesium (Christine to Patrick)
+. HERE Technologies (Marco Tillmann)
+. Verses (Jan-Erik and Christine)
+. Worlds.io (Christine to Jason)
+. Nokia Bell Labs (Christine to Gabor)
+. Bubiko (Christine to Stephen)
