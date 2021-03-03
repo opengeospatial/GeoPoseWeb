@@ -9,3 +9,6 @@ In addition to informing OGC members, members of the GeoPose SWG reach out and s
 . Worlds.io (Christine to Jason)
 . Nokia Bell Labs (Christine to Gabor)
 . Bubiko (Christine to Stephen)
+. Ecere (Christine to Jerome)
+. Deutsche Telekom (Christine to Jan, Elmar, Terry, Thomas Vits)
+. Augmented.City (Christine to Vladimir)
