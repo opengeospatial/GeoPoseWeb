@@ -14,6 +14,6 @@ On March 9, there will be a post about GeoPose in the newsletter.
 
 ## Twitter
 
-On March 2, Trevor Flowers Tweeted about the GeoPose GitHub repo and his impressions of the OGC standard development process. He also shared the URL to the repo and invited his followers to visit. 
+On Feb 23, the SWG co-chairs asked OGC how (if it would take steps) to secure for the use of the SWG, the handle @GeoPose on Twitter. Jan-Erik has sent a LinkedIn message to the owner of the handle @GeoPose but not received a reply (March 3).
 
-The SWG co-chairs asked OGC how to secure for the use of the SWG, the handle @GeoPose on Twitter. Jan-Erik has sent a LinkedIn message to the owner of the handle @GeoPose but not received a reply (March 3).
+On March 2, Trevor Flowers https://twitter.com/TrevorFSmith/status/1366830632718856197[Tweeted about the GeoPose GitHub repo] and his impressions of the OGC standard development process. He also shared the URL to the GeoPose GitHub repo and invited his followers to visit.
