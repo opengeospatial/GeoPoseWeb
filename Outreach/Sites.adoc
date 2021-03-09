@@ -17,4 +17,6 @@ On March 9, there will be a post about GeoPose in the newsletter.
 
 On Feb 23, the SWG co-chairs asked OGC how (if it would take steps) to secure for the use of the SWG, the handle @GeoPose on Twitter. Jan-Erik has sent a LinkedIn message to the owner of the handle @GeoPose but not received a reply (March 3).
 
+On March 5 and March 8, Christine sent an e-mail to info@scct.edu.ph requesting that Georgito Posesano consider releasing the Twitter account. On March 8, Christine requested that the OGC send a request by post on OGC letterhead to the SSCT president and the professor.
+
 On March 2, Trevor Flowers https://twitter.com/TrevorFSmith/status/1366830632718856197[Tweeted about the GeoPose GitHub repo] and his impressions of the OGC standard development process. He also shared the URL to the GeoPose GitHub repo and invited his followers to visit.
