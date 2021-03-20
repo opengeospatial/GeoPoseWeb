@@ -1,0 +1,3 @@
+# README
+
+The materials and code for the geopose.org web site are maintained in this folder.
