@@ -41,3 +41,7 @@ Christine Perey is a member of the Khronos Group OpenXR, 3D Formats, 3D Commerce
 ## ISO/IEC JTC1 SC24 (MPEG)
 
 The https://www.mpegstandards.org/[Motion Pictures Experts Group (MPEG)] develops standards for coded representation of digital audio, video, 3D Graphics and genomic data. The https://www.iso.org/obp/ui/#iso:std:iso-iec:23093:-1:ed-1:v1:en[MPEG Internet of Media Things] working group has published an architecture and is developing encodings, based in part on MPEG-V specifications, for connected sensors observing the real world (e.g., cameras, microphones and other sensors that produce "media"). The geospatially-anchored position and orientation of IoMTs could be encoded in GeoPose.
+
+## Spatial Computing Experts
+
+Avi Bar-Zeev - On March 18, exchanged Tweets with Jan-Erik. He asks what new value GeoPose offers that wasn't available in Placemark (KML). On March 20, Christine reached out to Avi via e-mail, requesting that he visit the GitHub repo and provide feedback.
