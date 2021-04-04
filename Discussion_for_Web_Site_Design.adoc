@@ -1,10 +1,10 @@
-== Web Site Strategic Plan
+# Web Site Plan
 
-# Goals
+## Goals
 to create a website using HTML5 and CSS that has a simple look and feel, easy to navigate (ideally, a single page that covers the entire screen) and can be parsed for the WebXR website.
 
 
-# Sections
+## Sections
 In the WebXR prototype, the content is in three main sections:
 
 . Presentation,
@@ -15,27 +15,28 @@ Each has subsections.
 
 Some elements may have higher priority than others (like the list of implementers and adopters/part of community).
 
-## To Do
-Create an outline of the site sections with priorities assigned.
+### To Do
+Discuss https://github.com/opengeospatial/GeoPoseWeb/blob/main/Web_Site_Sections_and_Subsections.adoc[outline of the site sections] with priorities assigned.
 
-# Scrolling Direction
+## Scrolling Direction
 Since in VR there is a limit to the vertical placement of things, WebXR scrolling is horizontal. The user moves to the left and right.
 
 This is not consistent with vertical scrolling for navigation in web sites (because they were originally defined as documents).
 
-## ToDo
+### ToDo
 Discuss pros and cons of horizontal scrolling+snapping
-# Analytics
+
+## Analytics
 Since there is only one page, it doesn't make much sense to use a complex analytics solution to track the users. Plus, we don't have to worry about the GDPR law or cookie messages. To obtain user statistics or use location services to position the user in a 3D globe, there are ways to do so.
 
-# WebApp
+## WebApp
 One of the things that might be useful to do for outreach campaigns is to provide users with the capability to download the website as a WebApp, creating a easy shortcut in the desktop and making sure that the contents can be used even without a network connection.
 
-## ToDo:
+### ToDo:
 Discuss pros and cons of a WebApp
 
-# Backgrounds
+## Backgrounds
 The WebXR version created with the Sandbox has a 3D background.
 
-## ToDo:
+### ToDo:
 Discuss background of the HTML5 web page
