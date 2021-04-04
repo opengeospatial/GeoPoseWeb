@@ -1,0 +1,31 @@
+# Web Site Sections and Subsections
+
+## Landing "page"
+
+The URL http://geopose.org/index.htm takes the browser to a screen that contains:
+
+. About GeoPose
+.. What is GeoPose? Definition with link to the specification (link to the GitHub repo until ratified standard is published)
+.. OGC GeoPose SWG
+. About this web site
+.. OGC GeoPose SWG maintains this page
+.. How to view in WebXR
+.. How to navigate
+.. Date of last update
+
+## Community
+Community Section has these subsections:
+
+. We're reaching out to companies, SDOs, open source communities (when the standard is published we make this a list of products that are compliant)
+. How to participate (maybe call it "contribute" until the final standard is published)
+. Join the list (the visitor adds their name/e-mail address to receive updates, follow us on Twitter)
+. Implementations (similar to http://www.geopackage.org/implementations.html[this page])
+
+## Resources
+
+Resources section has these subsections:
+
+. Frequently Asked Questions are answered in the Guides
+.. Reviewers Guide
+.. Users Guide
+. Code
