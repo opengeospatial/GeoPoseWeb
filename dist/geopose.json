@@ -138,41 +138,46 @@
 			"css": "top: 8vh; overflow-x:hidden;",
 			"items": [
 				{
-					"id":"presentation",
+					"id":"presentation_wrap",
 					"style": "section",
-					"distribution": "horizontal",
+					"distribution": "vertical grouped",
 					"portrait": "rotate",
 					"items":[{
+						"id":"presentation",
+						"distribution": "horizontal grouped",
+						"portrait": "rotate",
+						"items":[{
 						"id": "presentationItems",
 						"distribution": "vertical grouped",
 						"css": "min-width: 30%; min-height: 30%;",
 						"items":[ {
-							"id": "presentationText",
-							"type": "text",
-							"text": "Standardizing the location and orientation of objects in the real world.",
-							"style": "main_header"
-						},
-						{
-							"id": "motto",
-							"type": "text",
-							"text": "Everything has a GeoPose!",
-							"style": "main_header"
+								"id": "presentationText",
+								"type": "text",
+								"text": "Standardizing the location and orientation of objects in the real world.",
+								"style": "main_header"
+							},
+							{
+								"id": "motto",
+								"type": "text",
+								"text": "Everything has a GeoPose!",
+								"style": "main_header"
+							}]
+						},{
+							"id": "presentationImage",
+							"type": "image",
+							"image": "img/GeoPose.png",
+							"css": "min-width: 30%; min-height: 30%;"
+						},{
+							"id": "presentationOptions",
+							"distribution": "vertical separated",
+							"css": "min-width: 30%; min-height: 30%;",
+							"items":[
+								{ "type": "text", "text": "What is GeoPose?", "style": "main_button", "link": "#definition"},
+								{ "type": "text", "text": "Who uses GeoPose?", "style": "main_button", "link": "#use_cases"},
+								{ "type": "text", "text": "Are you a GeoPose user?", "style": "main_button", "link": "#supporters"},
+								{ "type": "text", "text": "Looking for examples?", "style": "main_button", "link": "#documentation"}
+							]
 						}]
-					},{
-						"id": "presentationImage",
-						"type": "image",
-						"image": "img/GeoPose.png",
-						"css": "min-width: 30%; min-height: 30%;"
-					},{
-						"id": "presentationOptions",
-						"distribution": "vertical separated",
-						"css": "min-width: 30%; min-height: 30%;",
-						"items":[
-							{ "type": "text", "text": "What is GeoPose?", "style": "main_button", "link": "#definition"},
-							{ "type": "text", "text": "Who uses GeoPose?", "style": "main_button", "link": "#use_cases"},
-							{ "type": "text", "text": "Are you a GeoPose user?", "style": "main_button", "link": "#supporters"},
-							{ "type": "text", "text": "Looking for examples?", "style": "main_button", "link": "#documentation"}
-						]
 					}]
 				}, {
 					"id":"definition",
@@ -306,8 +311,11 @@
 							"distribution": "horizontal grouped",
 							"css": "min-height: 30%;",
 							"items": [
-								{"id": "contributors_01", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-								{"id": "contributors_02", "type": "image", "align": "middle-center", "image": "img/supporters/opensiteplan.png", "link":""}
+								{"id": "contributors_01", "type": "image", "align": "middle-center", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
+								{"id": "contributors_02", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
+								{"id": "contributors_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
+								{"id": "contributors_04", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+								{"id": "contributors_05", "type": "image", "align": "middle-center", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"}
 							]
 						},
 						{},
@@ -317,7 +325,9 @@
 							"distribution": "horizontal grouped",
 							"css": "min-height: 30%;",
 							"items": [
-								{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"}
+								{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
+								{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
+								{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"}
 							]
 						},
 						{},
@@ -347,6 +357,7 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
+								"link": "https://github.com/opengeospatial/GeoPose/blob/main/standard/pdf/geopose_standard.pdf",
 								"items":[
 									{"id": "documentation_01_image", "type": "image", "image": "img/documentation/guide.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;"},
 									{
@@ -364,6 +375,7 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
+								"link": "https://github.com/opengeospatial/GeoPose/",
 								"items":[
 									{"id": "documentation_02_image", "type": "image", "image": "img/documentation/github.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;"  },
 									{
@@ -381,6 +393,7 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
+								"link": "https://github.com/opengeospatial/GeoPoseSandbox",
 								"items":[
 									{"id": "documentation_03_image", "type": "image", "image": "img/documentation/sandbox.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;" },
 									{
