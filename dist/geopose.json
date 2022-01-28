@@ -162,7 +162,7 @@
 								"text": "Everything has a GeoPose!",
 								"style": "main_header"
 							},
-							{ "type": "text", "text": "Get your GeoPose", "style": "main_button", "link": ""}
+							{ "type": "text", "text": "Get your GeoPose", "style": "main_button", "link": "", "context": "false"}
 						]
 						},{
 							"id": "presentationImage",
@@ -347,7 +347,7 @@
 							"distribution": "horizontal grouped",
 							"css": "min-height: 20%; align-items: center; ",
 							"items": [{
-								"text": "Are you implementing GeoPose? Let us know", 
+								"text": "Are you implementing GeoPose? Let us know", "link": "https://forms.gle/FDSsBh39RS3f4w9B7", 
 								"style": "main_button", "width": "auto", "height": "auto"
 							}]
 						}
