@@ -1,12 +1,12 @@
 <?php
 
-/** Defines a WebXR Content management System */
-class XRCMS {
+/** Defines a Threesenter PHP helper. */
+class Threesenter {
 
-	/** A list of XRCMS instances */
+	/** A list of Threesenter instances */
 	static $instances = [];
 
-	/** Initializes a new instance of the XRCMS.
+	/** Initializes a new instance of Threesenter.
 	 *  @param data The initialization data. */
 	function __construct($data) {
 
@@ -57,6 +57,7 @@ class XRCMS {
 		// Save the data
 		$this->data = $data;
 
+		// SAve the path
 		$this->path = dirname($url);
 
 		// The dCSS data in portrait mode
@@ -70,9 +71,9 @@ class XRCMS {
 	}
 
 
-	/** Initializes a new instance of the XRCMS.
+	/** Initializes a new instance of the Threesenter.
 	 * @param data The initialization data. */
-	static function init($data) { return new XRCMS($data); }
+	static function init($data) { return new Threesenter($data); }
 
 
 	/** Calculates the relative path from one URL to another.
@@ -259,7 +260,7 @@ class XRCMS {
 
 
 		// Create the main element
-		$attribs = ['id' => $this->data->id, 'class' => 'xrcms'];
+		$attribs = ['id' => $this->data->id, 'class' => 'Threesenter'];
 		$main = $this->createElement('div', $body, $attribs);
 		
 		try {
@@ -317,12 +318,11 @@ class XRCMS {
 				$this->portrait . "}\n";
 		}
 		
-
 		// Create the different style
 		$this->createElement('style', $head, null, "\n" .
 			'* { margin:0; box-sizing: border-box; overflow: hidden; pointer-events: all;}' . "\n" .
-			'html, body, xrcms { width: 100%; height: 100%; }' . "\n" . 
-			'a { text-decoration: none; }' . "\n" . 
+			'html, body, Threesenter { width: 100%; height: 100%; }' . "\n" . 
+			'a { text-decoration: none; display:contents;}' . "\n" . 
 			'.layer { position: fixed; width: 100vw; height: 100vh; pointer-events: none; scroll-snap-type: both mandatory;}' . "\n" . 
 			'.layer > div { scroll-snap-align: start; }' . "\n" . 
 			// '::-webkit-scrollbar { display: none; }'. "\n" . 
@@ -337,10 +337,9 @@ class XRCMS {
 		$jsonData = json_encode($this->data); //, JSON_PRETTY_PRINT);
 
 		$this->createElement('script', $body, null, "\n" . 
-			'let xrcms_data = ' . $jsonData ."\t");
+			'let Threesenter_data = ' . $jsonData ."\t");
 		$path = $this->getRelativePath($this->path, __DIR__);
-		// $this->createElement('script', $body, ['src'=> $path . '\three.min.js']);
-		// $this->createElement('script', $body, ['src'=> 'xrcms.js']);
+		// $this->createElement('script', $body, ['src'=> 'Threesenter.js']);
 		
 		// Display the HTML document
 		$htmlData = $this->dom->saveXML($html, LIBXML_NOEMPTYTAG);
