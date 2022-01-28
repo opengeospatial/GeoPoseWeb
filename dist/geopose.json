@@ -138,12 +138,12 @@
 			"css": "top: 8vh; overflow-x:hidden;",
 			"items": [
 				{
-					"id":"presentation_wrap",
+					"id":"presentation",
 					"style": "section",
 					"distribution": "vertical grouped",
 					"portrait": "rotate",
 					"items":[{
-						"id":"presentation",
+						"id":"presentation_group",
 						"distribution": "horizontal grouped",
 						"portrait": "rotate",
 						"items":[{
@@ -161,7 +161,9 @@
 								"type": "text",
 								"text": "Everything has a GeoPose!",
 								"style": "main_header"
-							}]
+							},
+							{ "type": "text", "text": "Get your GeoPose", "style": "main_button", "link": ""}
+						]
 						},{
 							"id": "presentationImage",
 							"type": "image",
@@ -182,26 +184,33 @@
 				}, {
 					"id":"definition",
 					"style": "section",
-					"background": "#ffffff",
-					"distribution": "horizontal",
+					"distribution": "vertical grouped",
 					"portrait": "rotate",
 					"items":[{
-						"id": "definitionText",
-						"distribution": "vertical grouped",
-						"css": "min-width: 60%; min-height: 60%;",
-						"items":[
-							{"type": "text", "text": "What is GeoPose?", "style": "main_header", "height":"auto"},
-							{"type": "text", "text": "When a real or digital object's pose is defined relative to a geographical frame of reference, it will be called a geographically-anchored pose, or ''GeoPose'' for short. All physical world objects have a geographically-anchored pose. Digital objects may be assigned/attributed a GeoPose. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
-							{"type": "text", "text": "Why standardize GeoPose?", "style": "main_header",  "height":"auto"},
-							{"type": "text", "text": "OGC GeoPose Standard defines the encodings for the real world position and orientation of a real or a digital object in a machine-readable form. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
-							{"type": "text", "text": "Using GeoPose enables the easy integration of digital elements on and in relation to the surface of the planet. ", "style": "main_text", "align": "bottom-right", "height":"auto"}
+						"id":"definition_group",
+						"style": "section",
+						"background": "#ffffff",
+						"distribution": "horizontal",
+						"portrait": "rotate",
+						"items":[{
+							"id": "definitionText",
+							"distribution": "vertical grouped",
+							"css": "min-width: 60%; min-height: 60%;",
+							"items":[
+								{"type": "text", "text": "What is GeoPose?", "style": "main_header", "height":"auto"},
+								{"type": "text", "text": "When a real or digital object's pose is defined relative to a geographical frame of reference, it will be called a geographically-anchored pose, or ''GeoPose'' for short. All physical world objects have a geographically-anchored pose. Digital objects may be assigned/attributed a GeoPose. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
+								{"type": "text", "text": "Why standardize GeoPose?", "style": "main_header",  "height":"auto"},
+								{"type": "text", "text": "OGC GeoPose Standard defines the encodings for the real world position and orientation of a real or a digital object in a machine-readable form. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
+								{"type": "text", "text": "Using GeoPose enables the easy integration of digital elements on and in relation to the surface of the planet. ", "style": "main_text", "align": "bottom-right", "height":"auto"}
+							]
+							}, {
+								"id": "definitionImage",
+								"type": "image",
+								"image": "img/GeoPoseWithLabels.png",
+								"css": "min-width: 40%; min-height: 40%;"
+							}
 						]
-						}, {
-							"id": "definitionImage",
-							"type": "image",
-							"image": "img/GeoPoseWithLabels.png",
-							"css": "min-width: 40%; min-height: 40%;"
-						}]
+					}]
 				}, {
 					"id":"use_cases",
 					"style": "section",
@@ -309,13 +318,14 @@
 						{
 							"id": "contributors_group",
 							"distribution": "horizontal grouped",
-							"css": "min-height: 30%;",
+							"css": "min-height: 30%; align-items: center;",
+							"portrait": "rotate",
 							"items": [
-								{"id": "contributors_01", "type": "image", "align": "middle-center", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
-								{"id": "contributors_02", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-								{"id": "contributors_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
-								{"id": "contributors_04", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
-								{"id": "contributors_05", "type": "image", "align": "middle-center", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"}
+								{"id": "contributors_01", "type": "image", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
+								{"id": "contributors_02", "type": "image", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
+								{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
+								{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+								{"id": "contributors_05", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"}
 							]
 						},
 						{},
@@ -323,7 +333,8 @@
 						{
 							"id": "implementers_group",
 							"distribution": "horizontal grouped",
-							"css": "min-height: 30%;",
+							"portrait": "rotate",
+							"css": "min-height: 30%; align-items: center;",
 							"items": [
 								{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
 								{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
@@ -357,7 +368,7 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
-								"link": "https://github.com/opengeospatial/GeoPose/blob/main/standard/pdf/geopose_standard.pdf",
+								"link": "https://github.com/opengeospatial/GeoPoseGuides/tree/main/reviewers_guide",
 								"items":[
 									{"id": "documentation_01_image", "type": "image", "image": "img/documentation/guide.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;"},
 									{
