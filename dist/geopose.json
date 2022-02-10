@@ -18,7 +18,8 @@
 			"line_height": "6vmin",
 			"align": "middle_center",
 			"padding": "0 1vmin",
-			"color": "#00B1FF"
+			"color": "#00B1FF",
+			"css": "white-space: nowrap;"
 		},{
 			"id": "footer_link",
 			"font": "Arial",
@@ -153,7 +154,7 @@
 						"items":[ {
 								"id": "presentationText",
 								"type": "text",
-								"text": "Standardizing the location and orientation of objects in the real world.",
+								"text": "Standardizing the position and orientation of objects in the real world.",
 								"style": "main_header"
 							},
 							{
@@ -316,19 +317,27 @@
 					"items":[
 						{ "id": "contributors", "text": "GeoPose SWG Contributors", "style": "main_header", "css": "min-height: 10%;" },
 						{
-							"id": "contributors_group",
+							"id": "contributors_group1",
 							"distribution": "horizontal grouped",
-							"css": "min-height: 30%; align-items: center;",
+							"css": "min-height: 15%; align-items: center;",
 							"portrait": "rotate",
 							"items": [
 								{"id": "contributors_01", "type": "image", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
 								{"id": "contributors_02", "type": "image", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-								{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
-								{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
-								{"id": "contributors_05", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"}
+								{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"}
 							]
 						},
-						{},
+						{
+							"id": "contributors_group2",
+							"distribution": "horizontal grouped",
+							"css": "min-height: 15%; align-items: center;",
+							"portrait": "rotate",
+							"items": [
+								{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+								{"id": "contributors_05", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"},
+								{"id": "contributors_06", "type": "image", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"}
+							]
+						},
 						{ "id": "implementers", "text": "Implementers", "style": "main_header", "css": "min-height: 10%;"  },
 						{
 							"id": "implementers_group",
