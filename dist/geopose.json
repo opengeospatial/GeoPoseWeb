@@ -377,7 +377,7 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
-								"link": "https://github.com/opengeospatial/GeoPoseGuides/tree/main/reviewers_guide",
+								"link": "https://github.com/opengeospatial/GeoPoseGuides/",
 								"items":[
 									{"id": "documentation_01_image", "type": "image", "image": "img/documentation/guide.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;"},
 									{
