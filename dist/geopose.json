@@ -124,6 +124,7 @@
 							"type": "text", 
 							"style": "footer_link", 
 							"text": "Copyright © 2022, OGC | GeoPose SWG",
+							"link": "https://ogc.org",
 							"css": "font-weight:bold; white-space: nowrap;",
 							"width": "auto"
 						}
