@@ -322,7 +322,7 @@ class Threesenter {
 		$this->createElement('style', $head, null, "\n" .
 			'* { margin:0; box-sizing: border-box; overflow: hidden; pointer-events: all;}' . "\n" .
 			'html, body, Threesenter { width: 100%; height: 100%; }' . "\n" . 
-			'a { text-decoration: none; display:contents;}' . "\n" . 
+			'a { text-decoration: none; display:contents; }' . "\n" . 
 			'.layer { position: fixed; width: 100vw; height: 100vh; pointer-events: none; scroll-snap-type: both mandatory;}' . "\n" . 
 			'.layer > div { scroll-snap-align: start; }' . "\n" . 
 			// '::-webkit-scrollbar { display: none; }'. "\n" . 
@@ -331,6 +331,8 @@ class Threesenter {
 			'::-webkit-scrollbar-thumb { background: #888; }' . "\n" . 
 			'::-webkit-scrollbar-thumb:hover { background: #555; } ' . "\n" . 
 			'img { max-width: 100%; max-height: 100%; object-fit: contain; }' . "\n" . 
+			'#footer > div > a { display: inline; }' . "\n" . 
+			$data->css . "\n" . 
 			$this->css. "\t");
 
 		// Encode the javascript into the page
