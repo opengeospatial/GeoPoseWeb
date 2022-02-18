@@ -4,15 +4,14 @@
 	"title": "GeoPose Website",
 	"description": "The GeoPose Website",
 	"author": "Mikel Salazar",
-	"resources": {
-	},
+	"css": "@font-face {font-family: 'Poppins Medium'; src: url('fonts/Poppins-Medium.eot'); src: url('fonts/Poppins-Medium.woff') format('woff'), url('fonts/Poppins-Medium.ttf') format('truetype'); }" ,
 	"styles": [
 		{
 			"id": "section",
 			"css": "width: 100%; height: 100%; scroll-snap-align: start; padding: 5vmin;"
 		},{
 			"id": "navigator_link",
-			"font": "Arial",
+			"font": "Poppins Medium, Times New Roman",
 			"font_weight": "bold",
 			"font_size": "3.5vmin",
 			"line_height": "6vmin",
@@ -26,11 +25,11 @@
 			"font_size": "3vmin",
 			"line_height": "5vmin",
 			"align": "middle_center",
-			"css": "margin-right: 2vmin;",
-			"color": "#00B1FF"
+			"color": "#00B1FF",
+			"css": "margin-right: 2vmin; white-space: nowrap;"
 		},{
 			"id": "main_header",
-			"font": "Arial",
+			"font": "Poppins Medium, Arial",
 			"font_size": "4vmin",
 			"font_weight": "bold",
 			"align": "middle_center",
@@ -43,8 +42,8 @@
 			"color": "#444444"
 		},{
 			"id": "main_button",
-			"font": "Arial",
-			"font_size": "4vmin",
+			"font": "Poppins Medium, Arial",
+			"font_size": "3.5vmin",
 			"align": "middle_center",
 			"color": "#ffffff",
 			"background": "#00B1FF",
@@ -104,29 +103,29 @@
 				}, {
 					"id": "footer",
 					"background": "#ffffff",
+					"width": "100%",
 					"height": "5%",
 					"distribution": "horizontal separated",
 					"padding": "0 1vh",
-					"css": "box-shadow: #cccccc 0 -0.5vmin 0.5vmin;",
-					"items": [
+					"css": "position:fixed; left: 0; bottom: 0; box-shadow: #cccccc 0 -0.5vmin 0.5vmin;",
+					"items": [ 
 						{
-							"id": "external_links",
-							"distribution": "horizontal separated",
-							"width": "auto",
+							"distribution": "horizontal grouped",
+							"portrait": "hidden",
 							"items": [
-								{ "id": "contact_us_link ", "style": "footer_link", "text": "Contact Us", "link": "https://forms.gle/FDSsBh39RS3f4w9B7", "width": "auto" }, 
-								{ "id": "blog_link ", "style": "footer_link", "text": "Blog", "link": "https://medium.com/ogc-geopose", "width": "auto"}, 
-								{ "id": "mailing_list_link ", "style": "footer_link", "text": "Mailing List", "link": "https://docs.google.com/forms/d/e/1FAIpQLSe-3e1HAL5D7jkojsIphqNrK2BqlJ5ZB-bKNTXRAFVSHOczzQ/viewform", "width": "auto" }
+								{ "id": "contact_us_link ", "style": "footer_link", "text": "Contact Us", "link": "https://forms.gle/FDSsBh39RS3f4w9B7"}, 
+								{ "id": "blog_link ", "style": "footer_link", "text": "Blog", "link": "https://medium.com/ogc-geopose"}, 
+								{ "id": "mailing_list_link ", "style": "footer_link", "text": "Mailing List", "link": "https://docs.google.com/forms/d/e/1FAIpQLSe-3e1HAL5D7jkojsIphqNrK2BqlJ5ZB-bKNTXRAFVSHOczzQ/viewform"}
 							]
-						}, {
-							
-							"id": "copyright", 
-							"type": "text", 
-							"style": "footer_link", 
-							"text": "Copyright © 2022, OGC | GeoPose SWG",
-							"link": "https://ogc.org",
-							"css": "font-weight:bold; white-space: nowrap;",
-							"width": "auto"
+						},
+						{
+							"distribution": "horizontal grouped", 
+							"width": "auto",
+							"css": "text-align: right;", 
+							"items": [
+								{ "type": "image", "image": "img/OGC.png", "link": "https://ogc.org", "css":"height:80%; margin: 0.5vh;", "width": "auto"},
+								{ "text": "GeoPose SWG © 2022", "style": "footer_link", "css": "font-weight:bold;", "link": "https://ogc.org", "width": "auto" }
+							]
 						}
 					]
 				}
@@ -318,40 +317,64 @@
 					"items":[
 						{ "id": "contributors", "text": "GeoPose SWG Contributors", "style": "main_header", "css": "min-height: 10%;" },
 						{
-							"id": "contributors_group1",
-							"distribution": "horizontal grouped",
-							"css": "min-height: 15%; align-items: center;",
+							"id": "contributors_groups",
+							"distribution": "vertical separated",
 							"portrait": "rotate",
 							"items": [
-								{"id": "contributors_01", "type": "image", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
-								{"id": "contributors_02", "type": "image", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-								{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"}
-							]
-						},
-						{
-							"id": "contributors_group2",
-							"distribution": "horizontal grouped",
-							"css": "min-height: 15%; align-items: center;",
-							"portrait": "rotate",
-							"items": [
-								{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
-								{"id": "contributors_05", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp"},
-								{"id": "contributors_06", "type": "image", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"}
+								{
+									"id": "contributors_group1",
+									"distribution": "horizontal grouped",
+									"css": "min-height: 15%; align-items: center;",
+									"portrait": "rotate",
+									"items": [
+										{"id": "contributors_01", "type": "image", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
+										{"id": "contributors_02", "type": "image", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
+										{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"}
+									]
+								},
+								{
+									"id": "contributors_group2",
+									"distribution": "horizontal grouped",
+									"css": "min-height: 15%; align-items: center;",
+									"portrait": "rotate",
+									"items": [
+										{"id": "contributors_04", "type": "image", "image": "img/supporters/OARC.png", "link":"https://www.openarcloud.org/"},
+										{"id": "contributors_05", "type": "image", "image": "img/supporters/Perey.png", "link":"https://www.perey.com" },
+										{"id": "contributors_06", "type": "image", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"},
+										{"id": "contributors_07", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp", "context": "false"}
+									]
+								}
 							]
 						},
 						{ "id": "implementers", "text": "Implementers", "style": "main_header", "css": "min-height: 10%;"  },
 						{
-							"id": "implementers_group",
-							"distribution": "horizontal grouped",
+							"id": "implementers_groups",
+							"distribution": "vertical separated",
 							"portrait": "rotate",
-							"css": "min-height: 30%; align-items: center;",
 							"items": [
-								{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-								{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
-								{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"}
+								{
+									"id": "implementers_group",
+									"distribution": "horizontal grouped",
+									"portrait": "rotate",
+									"css": "min-height: 15%; align-items: center;",
+									"items": [
+										{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OARC.png", "link":"https://www.openarcloud.org/"},
+										{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
+										{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"}
+									]
+								},
+								{
+									"id": "implementers_group2",
+									"distribution": "horizontal grouped",
+									"css": "min-height: 15%; align-items: center;",
+									"portrait": "rotate",
+									"items": [
+										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+										{"id": "implementers_05", "type": "image", "align": "middle-center", "image": "img/supporters/XRMasters.png", "link":"https://xr-masters.com/"}
+									]
+								}
 							]
 						},
-						{},
 						{ 
 							"id": "implementers_buttons", 
 							"distribution": "horizontal grouped",
