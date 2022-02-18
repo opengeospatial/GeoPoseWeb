@@ -22,8 +22,8 @@
 		},{
 			"id": "footer_link",
 			"font": "Arial",
-			"font_size": "3vmin",
-			"line_height": "5vmin",
+			"font_size": "3vh",
+			"line_height": "5vh",
 			"align": "middle_center",
 			"color": "#00B1FF",
 			"css": "margin-right: 2vmin; white-space: nowrap;"
