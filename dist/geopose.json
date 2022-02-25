@@ -408,7 +408,11 @@
 										"distribution": "vertical",
 										"items": [
 											{"id": "documentation_01_header", "text": "Reviewers' Guide", "style": "main_header", "height": "auto", "margin": "2vmin" },
-											{"id": "documentation_01_text", "text": "For reviewers of the standard who need to understand the concepts and geospatial technology landscape.", "style": "main_text", "height": "auto" }
+											{"id": "documentation_01_text", "text": "For reviewers of the standard who need to understand the concepts and geospatial technology landscape.", "style": "main_text", "height": "auto" },
+											{"id": "documentation_01_links", "height": "auto", "distribution": "horizontal grouped", "items": [
+												{ "text":"[PDF]", "style": "main_header", "height": "auto", "link": "https://raw.githubusercontent.com/opengeospatial/GeoPoseGuides/working-draft/GeoPose-Reviewers-Guide.pdf" },
+												{ "text":"[HTML]", "style": "main_header", "height": "auto", "link": "https://htmlpreview.github.io/?https://github.com/opengeospatial/GeoPoseGuides/blob/working-draft/GeoPose-Reviewers-Guide.html" }
+											]}
 										]
 									}
 								]
