@@ -202,7 +202,15 @@
 								{"type": "text", "text": "When a real or digital object's pose is defined relative to a geographical frame of reference, it will be called a geographically-anchored pose, or ''GeoPose'' for short. All physical world objects have a geographically-anchored pose. Digital objects may be assigned/attributed a GeoPose. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
 								{"type": "text", "text": "Why standardize GeoPose?", "style": "main_header",  "height":"auto"},
 								{"type": "text", "text": "OGC GeoPose Standard defines the encodings for the real world position and orientation of a real or a digital object in a machine-readable form. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
-								{"type": "text", "text": "Using GeoPose enables the easy integration of digital elements on and in relation to the surface of the planet. ", "style": "main_text", "align": "bottom-right", "height":"auto"}
+								{"type": "text", "text": "Using GeoPose enables the easy integration of digital elements on and in relation to the surface of the planet. ", "style": "main_text", "align": "bottom-right", "height":"auto"},
+								{
+									"id": "additionalButtons",
+									"distribution": "horizontal grouped", 
+									"items": [							
+										{ "type": "text", "text": "Draft document", "style": "main_button", "link": "https://data.ogc.org/geopose-swg/pdf/geopose_standard.pdf"},
+										{ "type": "text", "text": "Explainer videos", "style": "main_button", "link": "https://www.youtube.com/playlist?list=PLQsQNjNIDU86mufMCuDW0rtG2s9tHuoQ5"}
+									]
+								}
 							]
 							}, {
 								"id": "definitionImage",
