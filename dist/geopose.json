@@ -207,8 +207,8 @@
 									"id": "additionalButtons",
 									"distribution": "horizontal grouped", 
 									"items": [							
-										{ "type": "text", "text": "Draft document", "style": "main_button", "link": "https://data.ogc.org/geopose-swg/pdf/geopose_standard.pdf"},
-										{ "type": "text", "text": "Explainer videos", "style": "main_button", "link": "https://www.youtube.com/playlist?list=PLQsQNjNIDU86mufMCuDW0rtG2s9tHuoQ5"}
+										{ "type": "text", "text": "Draft Specification", "style": "main_button", "link": "https://data.ogc.org/geopose-swg/pdf/geopose_standard.pdf"},
+										{ "type": "text", "text": "Explainer Videos", "style": "main_button", "link": "https://www.youtube.com/playlist?list=PLQsQNjNIDU86mufMCuDW0rtG2s9tHuoQ5"}
 									]
 								}
 							]
