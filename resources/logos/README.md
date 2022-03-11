@@ -6,3 +6,4 @@ Square image (512x512px) PNG or SVG
 | Contributor and Implementer | OnSiteViewer | OnSiteViewer.png | https://www.onsiteviewer.com/ |
 | Contributor and Implementer | OpenARCloud |  AugmentedInteraction.png | https://www.openarcloud.org/ |
 | Implementer | Augmented Interaction | AugmentedInteraction.png | https:/augmentedinteraction.com |
+| Contributor | University of Applied Sciences and Arts Western Switzerland, School of Engineering and Management Vaud | logos/HEIG-VD_logotype-baseline_rouge-rvb.png | https://heig-vd.ch/ |
