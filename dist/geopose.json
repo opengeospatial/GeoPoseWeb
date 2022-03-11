@@ -338,7 +338,8 @@
 										{"id": "contributors_01", "type": "image", "image": "img/supporters/OrdnanceSurvey.png", "link":"https://www.ordnancesurvey.co.uk/"},
 										{"id": "contributors_02", "type": "image", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
 										{"id": "contributors_03", "type": "image", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
-										{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"}
+										{"id": "contributors_04", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+										{"id": "contributors_04b", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp", "context": "false"}
 									]
 								},
 								{
@@ -350,8 +351,7 @@
 										{"id": "contributors_05", "type": "image", "image": "img/supporters/OARC.png", "link":"https://www.openarcloud.org/"},
 										{"id": "contributors_06", "type": "image", "image": "img/supporters/Perey.png", "link":"https://www.perey.com" },
 										{"id": "contributors_07", "type": "image", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"},
-										{"id": "contributors_08", "type": "image", "image": "img/supporters/HEIG-VD.png", "link":"https://heig-vd.ch/"},
-										{"id": "contributors_09", "type": "image", "image": "img/supporters/AIST.png", "link":"https://www.aist.go.jp", "context": "false"}
+										{"id": "contributors_08", "type": "image", "image": "img/supporters/HEIG-VD.png", "link":"https://heig-vd.ch/"}
 									]
 								}
 							]
