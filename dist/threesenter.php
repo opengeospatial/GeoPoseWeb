@@ -346,6 +346,7 @@ class Threesenter {
 		// Display the HTML document
 		$htmlData = $this->dom->saveXML($html, LIBXML_NOEMPTYTAG);
 		$htmlData = str_replace("&gt;", ">", $htmlData);
+		$htmlData = "<!DOCTYPE html>\n" . $htmlData;
 		print($htmlData);
 	} 
 }
