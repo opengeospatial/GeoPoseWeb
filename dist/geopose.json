@@ -440,8 +440,12 @@
 									{
 										"distribution": "vertical",
 										"items": [
-											{"id": "documentation_02_header", "text": "Github Repository", "style": "main_header", "height": "auto", "margin": "2vmin" },
-											{"id": "documentation_02_text", "text": "Ask questions, provide feedback and submit new requirements for future versions of GeoPose.", "style": "main_text", "height": "auto"  }
+											{"id": "documentation_02_header", "text": "Github Repositories", "style": "main_header", "height": "auto", "margin": "2vmin" },
+											{"id": "documentation_02_text", "text": "Ask questions, provide feedback and submit new requirements for future versions of GeoPose.", "style": "main_text", "height": "auto"  },
+											{"id": "documentation_02_links", "height": "auto", "distribution": "horizontal grouped", "items": [
+												{ "text":"Specification", "style": "main_text", "height": "auto", "link": "https://github.com/opengeospatial/GeoPose" },
+												{ "text":"C# Implementation", "style": "main_text", "height": "auto", "link": "https://github.com/EtharInc/Ethar.GeoPose" }
+											]}
 										]
 									}
 								]
