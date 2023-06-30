@@ -42,9 +42,10 @@
 			"color": "#444444"
 		},{
 			"id": "main_link",
-			"font": "Arial",
+			"font": "Poppins Medium, Arial",
 			"font_size": "3vmin",
 			"align": "middle_center",
+			"padding": "1vmin",
 			"color": "#00B1FF"
 		},{
 			"id": "main_button",
