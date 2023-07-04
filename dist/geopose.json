@@ -386,7 +386,7 @@
 									"css": "min-height: 15%; align-items: center;",
 									"portrait": "rotate",
 									"items": [
-										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/AuroraViewer.png", "link":"https://www.auroraviewer.org"},
 										{"id": "implementers_05", "type": "image", "align": "middle-center", "image": "img/supporters/XRMasters.png", "link":"https://xr-masters.com/"},
 										{"id": "implementers_06", "type": "image", "align": "middle-center", "image": "img/supporters/Ecere.png", "link":"https://ecere.com/"}
 									]
