@@ -214,7 +214,7 @@
 									"id": "additionalButtons",
 									"distribution": "horizontal grouped", 
 									"items": [							
-										{ "type": "text", "text": "OGC Draft Standard", "style": "main_button", "link": "https://docs.ogc.org/dis/21-056r10/21-056r10.html"},
+										{ "type": "text", "text": "OGC Standard", "style": "main_button", "link": "https://docs.ogc.org/is/21-056r11/21-056r11.html"},
 										{ "type": "text", "text": "Explainer Videos", "style": "main_button", "link": "https://www.youtube.com/playlist?list=PLQsQNjNIDU86mufMCuDW0rtG2s9tHuoQ5"}
 									]
 								}
