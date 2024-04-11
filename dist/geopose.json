@@ -379,7 +379,7 @@
 										{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
 										{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
 										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/Ethar.png", "link":"https://www.ethar.com/"},
-										{"id": "implementers_055", "type": "image", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"}
+										{"id": "contributors_05", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"}
 									]
 								},
 								{
@@ -391,7 +391,7 @@
 										{"id": "implementers_06", "type": "image", "align": "middle-center", "image": "img/supporters/AuroraViewer.png", "link":"https://www.auroraviewer.org/"},
 										{"id": "implementers_07", "type": "image", "align": "middle-center", "image": "img/supporters/XRMasters.png", "link":"https://xr-masters.com/"},
 										{"id": "implementers_08", "type": "image", "align": "middle-center", "image": "img/supporters/Ecere.png", "link":"https://ecere.com/"},
-										{"id": "contributors_09", "type": "image", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
+										{"id": "implementers_09", "type": "image", "align": "middle-center", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"},
 										{"id": "implementers_10", "type": "image", "align": "middle-center", "image": "img/supporters/HEIG-VD.png", "link":"https://smapshot.heig-vd.ch/"}
 									]
 								}
