@@ -41,6 +41,13 @@
 			"align": "middle_center",
 			"color": "#444444"
 		},{
+			"id": "main_link",
+			"font": "Poppins Medium, Arial",
+			"font_size": "3vmin",
+			"align": "middle_center",
+			"padding": "1vmin",
+			"color": "#00B1FF"
+		},{
 			"id": "main_button",
 			"font": "Poppins Medium, Arial",
 			"font_size": "3.5vmin",
@@ -207,7 +214,7 @@
 									"id": "additionalButtons",
 									"distribution": "horizontal grouped", 
 									"items": [							
-										{ "type": "text", "text": "OGC Draft Standard", "style": "main_button", "link": "https://docs.ogc.org/dis/21-056r10/21-056r10.html"},
+										{ "type": "text", "text": "OGC Standard", "style": "main_button", "link": "https://docs.ogc.org/is/21-056r11/21-056r11.html"},
 										{ "type": "text", "text": "Explainer Videos", "style": "main_button", "link": "https://www.youtube.com/playlist?list=PLQsQNjNIDU86mufMCuDW0rtG2s9tHuoQ5"}
 									]
 								}
@@ -370,7 +377,9 @@
 									"items": [
 										{"id": "implementers_01", "type": "image", "align": "middle-center", "image": "img/supporters/OARC.png", "link":"https://www.openarcloud.org/"},
 										{"id": "implementers_02", "type": "image", "align": "middle-center", "image": "img/supporters/OnSiteViewer.png", "link":"https://www.onsiteviewer.com/"},
-										{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"}
+										{"id": "implementers_03", "type": "image", "align": "middle-center", "image": "img/supporters/GlobalNomad.png", "link":"https://www.gn-gis.com/"},
+										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/Ethar.png", "link":"https://www.ethar.com/"},
+										{"id": "contributors_05", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"}
 									]
 								},
 								{
@@ -379,9 +388,11 @@
 									"css": "min-height: 15%; align-items: center;",
 									"portrait": "rotate",
 									"items": [
-										{"id": "implementers_04", "type": "image", "align": "middle-center", "image": "img/supporters/AugmentedInteraction.png", "link":"https://www.augmentedinteraction.com/"},
-										{"id": "implementers_05", "type": "image", "align": "middle-center", "image": "img/supporters/XRMasters.png", "link":"https://xr-masters.com/"},
-										{"id": "implementers_06", "type": "image", "align": "middle-center", "image": "img/supporters/Ecere.png", "link":"https://ecere.com/"}
+										{"id": "implementers_06", "type": "image", "align": "middle-center", "image": "img/supporters/AuroraViewer.png", "link":"https://www.auroraviewer.org/"},
+										{"id": "implementers_07", "type": "image", "align": "middle-center", "image": "img/supporters/XRMasters.png", "link":"https://xr-masters.com/"},
+										{"id": "implementers_08", "type": "image", "align": "middle-center", "image": "img/supporters/Ecere.png", "link":"https://ecere.com/"},
+										{"id": "implementers_09", "type": "image", "align": "middle-center", "image": "img/supporters/AwayTeam.png", "link":"https://awayteam.co.uk/"},
+										{"id": "implementers_10", "type": "image", "align": "middle-center", "image": "img/supporters/HEIG-VD.png", "link":"https://smapshot.heig-vd.ch/"}
 									]
 								}
 							]
@@ -421,8 +432,8 @@
 											{"id": "documentation_01_header", "text": "Reviewers' Guide", "style": "main_header", "height": "auto", "margin": "2vmin" },
 											{"id": "documentation_01_text", "text": "For reviewers of the standard who need to understand the concepts and geospatial technology landscape.", "style": "main_text", "height": "auto" },
 											{"id": "documentation_01_links", "height": "auto", "distribution": "horizontal grouped", "items": [
-												{ "text":"[PDF]", "style": "main_header", "height": "auto", "link": "https://raw.githubusercontent.com/opengeospatial/GeoPoseGuides/working-draft/GeoPose-Reviewers-Guide.pdf" },
-												{ "text":"[HTML]", "style": "main_header", "height": "auto", "link": "https://htmlpreview.github.io/?https://github.com/opengeospatial/GeoPoseGuides/blob/working-draft/GeoPose-Reviewers-Guide.html" }
+												{ "text":"[PDF]", "style": "main_link", "height": "auto", "link": "https://raw.githubusercontent.com/opengeospatial/GeoPoseGuides/working-draft/GeoPose-Reviewers-Guide.pdf" },
+												{ "text":"[HTML]", "style": "main_link", "height": "auto", "link": "https://htmlpreview.github.io/?https://github.com/opengeospatial/GeoPoseGuides/blob/working-draft/GeoPose-Reviewers-Guide.html" }
 											]}
 										]
 									}
@@ -440,8 +451,12 @@
 									{
 										"distribution": "vertical",
 										"items": [
-											{"id": "documentation_02_header", "text": "Github Repository", "style": "main_header", "height": "auto", "margin": "2vmin" },
-											{"id": "documentation_02_text", "text": "Ask questions, provide feedback and submit new requirements for future versions of GeoPose.", "style": "main_text", "height": "auto"  }
+											{"id": "documentation_02_header", "text": "Github Repositories", "style": "main_header", "height": "auto", "margin": "2vmin" },
+											{"id": "documentation_02_text", "text": "Ask questions, provide feedback and submit new requirements for future versions of GeoPose.", "style": "main_text", "height": "auto" },
+											{"id": "documentation_02_links", "height": "auto", "distribution": "horizontal grouped", "items": [
+												{ "text":"Specification", "style": "main_link", "height": "auto", "link": "https://github.com/opengeospatial/GeoPose" },
+												{ "text":"C# Implementation", "style": "main_link", "height": "auto", "link": "https://github.com/EtharInc/Ethar.GeoPose" }
+											]}
 										]
 									}
 								]
