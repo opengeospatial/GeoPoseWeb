@@ -131,7 +131,7 @@
 							"css": "text-align: right;", 
 							"items": [
 								{ "type": "image", "image": "img/OGC.png", "link": "https://ogc.org", "css":"height:80%; margin: 0.5vh;", "width": "auto"},
-								{ "text": "GeoPose SWG © 2022", "style": "footer_link", "css": "font-weight:bold;", "link": "https://ogc.org", "width": "auto" }
+								{ "text": "GeoPose SWG © 2025", "style": "footer_link", "css": "font-weight:bold;", "link": "https://ogc.org", "width": "auto" }
 							]
 						}
 					]
@@ -423,13 +423,13 @@
 								"portrait": "rotate",
 								"css": "align-items: center; min-width: 33%;",
 								"padding": "1vmin",
-								"link": "https://github.com/opengeospatial/GeoPoseGuides/",
+								"link": "",
 								"items":[
 									{"id": "documentation_01_image", "type": "image", "image": "img/documentation/guide.png", "width":"30vmin", "height":"30vmin", "padding": "1vmin", "css": "min-height: 30vmin;"},
 									{
 										"distribution": "vertical",
 										"items": [
-											{"id": "documentation_01_header", "text": "Reviewers' Guide", "style": "main_header", "height": "auto", "margin": "2vmin" },
+											{"id": "documentation_01_header", "text": "GeoPose 1.0 Reviewers' Guide", "style": "main_header", "height": "auto", "margin": "2vmin" },
 											{"id": "documentation_01_text", "text": "For reviewers of the standard who need to understand the concepts and geospatial technology landscape.", "style": "main_text", "height": "auto" },
 											{"id": "documentation_01_links", "height": "auto", "distribution": "horizontal grouped", "items": [
 												{ "text":"[PDF]", "style": "main_link", "height": "auto", "link": "https://raw.githubusercontent.com/opengeospatial/GeoPoseGuides/working-draft/GeoPose-Reviewers-Guide.pdf" },
