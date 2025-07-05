@@ -113,7 +113,7 @@
 						Full support for complex transforms, if and when necessary.
 					</li>
 				</ol>
-				
+
 				<h2 id="work-packages">Developer Feedback Grouped into Work Packages</h2>
 				<p>
 					In December 2024 and January 2025, the SWG compiled all feedback and change requests
@@ -243,11 +243,12 @@ let nav = document.getElementById('nav');
 let navButton = document.getElementById('navButton');
 navButton.addEventListener('click', (e) => { nav.style.display = 'flex'; });
 nav.addEventListener('click', (e) => { nav.style.display = 'none'; });
-window.addEventListener('resize', (e) => { 
+function resize () { 
 	let landscape = window.innerWidth > window.innerHeight;
 	nav.style.display = landscape? 'flex' : 'none'; 
 	navButton.style.display = landscape? 'none' : 'block'; 
-});
+}; resize();
+window.addEventListener('resize', resize);
 		</script>
 	</body>
 </html>
