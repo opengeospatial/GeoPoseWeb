@@ -28,7 +28,7 @@
 			}
 			header>div {
 				width: 100vw; max-width: 1024px; height: 64px; margin: 0 auto;
-				display: flex; flex-direction: row; padding: 8px 0;
+				display: flex; flex-direction: row; padding: 8px 8px;
 				justify-content: space-between; overflow: hidden;
 			}
 			nav { height: 48px; }
@@ -37,29 +37,40 @@
 				font-size: 24px; vertical-align: middle; line-height: 48px;
 				height: 48px; padding: 0 8px;
 			}
+			#navButton { 
+				display: none; width: 48px; height: 48px; 
+				background: none; border: none;
+			}
 			main { width: 100vw; overflow: auto; }
 			main>div { 
 				width: 100vw; max-width: 1024px; margin: 0 auto; 
 				padding: 0 0 400px 0;
 			}
-			table { border-collapse: collapse; }
+			table { border-collapse: collapse; margin: 8px 8px;}
 			td { border: 1px solid; padding: 5px;}
-			p { text-align: justify; padding: 8px 0; }
-			h1 { padding: 24px 0 8px 0;}
-			h2 { font-weight: normal; padding-top: 24px;}
+			p { text-align: justify; padding: 8px 8px; }
+			h1 { padding: 24px 0 8px 8px;}
+			h2 { font-weight: normal; padding: 24px 0 8px 8px;}
 			a { color: #00B1FF; font-weight: bold; }
+
+			@media (orientation: portrait) {
+				nav { position: fixed; top: 0; right: 0;	flex-direction: column; }
+				nav>a{ background: #FFFFFFAA; text-align: right; }
+				#navButton { display: block; }
+			}
 		</style>
 	</head>
 	<body>
 		<header>
 			<div>
 				<a href="https://geopose.org"><img src="img/GeoPoseLogo.png" height="48"></a>
-				<nav>
+				<nav id="nav">
 					<a href="#definition">Definition</a>
 					<a href="#motivations">Motivations</a>
 					<a href="#work-packages">Work Packages</a>
 					<a href="#call">Call</a>
 				</nav>
+				<button id="navButton"><img src="img/MenuIcon.png" width="48"></button> 
 			</div>
 		</header>
 		<main>
@@ -71,12 +82,14 @@
 					orientation (&ldquo;poses&rdquo;) of real or virtual objects within reference frames anchored to the
 					Earth&rsquo;s surface (&ldquo;geo&rdquo;) or within other coordinate systems tied to other objects than the Earth.
 				</p>
+				
 				<h2 id="definition">Definition</h2>
 				<p>
 					A geographically-anchored pose, or &#39;&#39;GeoPose&#39;&#39; for short, is a real or digital
 					object&#39;s pose that is defined relative to a geographical frame of reference. All physical world objects
 					have a geographically-anchored pose. Digital objects may be assigned/attributed a GeoPose.
 				</p>
+
 				<h2 id="motivations">Motivations</h2>
 				<p>
 					The OGC GeoPose 1.0 Standard defines the conceptual model for describing the
@@ -100,6 +113,7 @@
 						Full support for complex transforms, if and when necessary.
 					</li>
 				</ol>
+				
 				<h2 id="work-packages">Developer Feedback Grouped into Work Packages</h2>
 				<p>
 					In December 2024 and January 2025, the SWG compiled all feedback and change requests
@@ -112,117 +126,128 @@
 					<a href="https://docs.google.com/presentation/d/1hbaHyqrrQMbtHuM0qQFX31K-1tJpGtfkbpHqQf4wBsA">this presentation.</a>
 				</p>
 				<table>
-				<tr style="font-weight: bold;">
-					<td>&nbsp;#&nbsp;</td>
-					<td>Work&nbsp;Package&nbsp;Name</td>
-					<td>Includes&nbsp;these&nbsp;Change&nbsp;Requests</td>
-					<td>Leader(s)</td>
-					<td>Comments</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>Components</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/1e28blobnrG9zYl_8VyhjyWHs2ZqiW2z5MS94dxHMBSU">Components</a>: 
-						Expose the existing SDUs as &quot;GeoPose Components&quot; - v1.1
-						<a href="https://docs.google.com/presentation/d/1YLFjEXiKAGo4_o4EymYXlsTnkf9VjTkSk6QL3eRTOlY">Componentized GeoPose</a>:
-						Redefine a completely backwards compatible GeoPose using the Components from 1. , now with requirements, conformance classes, and tests - v1.1
-					</td>
-					<td>Steve&nbsp;Smyth</td>
-					<td>Primarily editorial. No volunteers needed.</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>Separate CM and Encodings</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/1XDfXacWLPfgykk3k14WqzFY1yMiPW84ZCpOZmVbv0FA">Separate Conceptual Model and Encoding</a>:
-						OGC best practice and supports WP6. v[1.4/2.0]
-					</td>
-					<td>Christine&nbsp;Perey</td>
-					<td>Primarily editorial. No volunteers needed.</td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td>Extension Components</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/10Es5_kTt06YxJP0uSUThDlKjfsZ2tHmdTZ49_BdHXSY">Extension Components</a>:
-						Proposed new Components that resolve many of the issues in our repo and coming from TB-19 and the MSF R/V group. This depends on WP1 - v1.3
-					</td>
-					<td>Mikel&nbsp;Salazar</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>4</td>
-					<td>CRS Definition in GeoPose</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/1eFKmgoHJUiq_YjmkohMZXaC_PTcl5xB_8M8PIRFk__Y">CRS Definition and Conformance Mechanisms</a>:
-						make Advanced GeoPose more usable
-					</td>
-					<td>Jeremy&nbsp;Morley</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>5</td>
-					<td>Time Coordinate</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/10TWurB4hhN3XqDDXmp2d_bdlo2-yxtcowMC3rfkcteI">Time Coordinate</a>:
-						New TimeCoordinate property with a rational relationship to the existing TimeStamp property - v1.2
-					</td>
-					<td>Rob&nbsp;Smith</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>6</td>
-					<td>New Encodings</td>
-					<td>
-						<ahref="https://docs.google.com/presentation/d/19XcSGUbxcALgVUhkHJaH0SdQeki7KPweUh1Z68XcmDQ">Binary Encoding</a>: 
-						Procedure for creating binary encodings of Components
-						from their JSON encoding and converting from binary back to JSON. WP2 would give us the
-						cleanest path to adding a new encoding - v1.2.
-						<hr>
-						<a href="https://docs.google.com/presentation/d/19XcSGUbxcALgVUhkHJaH0SdQeki7KPweUh1Z68XcmDQ">Encoding for DDIL Environments</a>:
-						Procedure for creating encodings of	Components suitable for use in a denied, degraded, intermittent, or limited (DDIL) communications environment.
-					</td>
-					<td>Mikel&nbsp;Salazar<br/><br/><hr></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>7</td>
-					<td>Uncertainty</td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/1CiegJR5hZUjfBYWum4NCAzbw8W0JHElGz8iwr9CpX0Y">Uncertainty</a>: 
-						Specify precision and accuracy for numerical values - v1.2
-					</td>
-					<td>Steve&nbsp;Smyth </td>
-					<td>
-						<a href="https://docs.google.com/presentation/d/1wBE0h3Tx7nv7cvfUWK_H2Nl4EllGOSqRlPaWeYbFs2U">draft</a> is available for review.
-					</td>
-				</tr>
-				<tr>
-					<td>8</td>
-					<td>Metaverse Standards Forum (MSF) Prototype Support</td>
-					<td>
-						MSF Prototype Support: New components. These all depend on WP1 - v1.3<br>
-						<a href="https://github.com/opengeospatial/GeoPose/issues/87">Depth Map</a> - a field of poses<br>
-						<a href="https://github.com/opengeospatial/GeoPose/issues/90">Camera Model</a> - a specialized frame transform<br>
-						<a href="https://github.com/opengeospatial/GeoPose/issues/88">Camera Calibration</a> - another specialized frame transform<br>
-						<a href="https://docs.google.com/presentation/d/1lcmajOxxkz8rOxM4IWhHRDd1AogKUo-eY7WLg0Uslkw">Target Set</a> - a set of discrete poses<br>
-						<a href="https://docs.google.com/presentation/d/1KYyzds0jPNk4lYvfj4pygd_TUcCnkgu5LUkpxtvjwMk">Radiance Field</a> - a full or partial radiance model<br>
-						<a href="https://docs.google.com/presentation/d/1i1765Idm-TdIvxZcy6tvmsW6CmZeviKA0xXk1fsCc2c">Links and Context</a>: Add new linking functionality and a &ldquo;sticky rule&rdquo; for the JSON encoding<br>
-					</td>
-					<td>Steve&nbsp;Smyth</td>
-					<td></td>
-				</tr>
-			</table>
-			
-			<h2 id="call">Call for Contributors</h2>
+					<tr style="font-weight: bold;">
+						<td>&nbsp;#&nbsp;</td>
+						<td>Work&nbsp;Package&nbsp;Name</td>
+						<td>Includes&nbsp;these&nbsp;Change&nbsp;Requests</td>
+						<td>Leader(s)</td>
+						<td>Comments</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Components</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/1e28blobnrG9zYl_8VyhjyWHs2ZqiW2z5MS94dxHMBSU">Components</a>: 
+							Expose the existing SDUs as &quot;GeoPose Components&quot; - v1.1
+							<a href="https://docs.google.com/presentation/d/1YLFjEXiKAGo4_o4EymYXlsTnkf9VjTkSk6QL3eRTOlY">Componentized GeoPose</a>:
+							Redefine a completely backwards compatible GeoPose using the Components from 1. , now with requirements, conformance classes, and tests - v1.1
+						</td>
+						<td>Steve&nbsp;Smyth</td>
+						<td>Primarily editorial. No volunteers needed.</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Separate CM and Encodings</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/1XDfXacWLPfgykk3k14WqzFY1yMiPW84ZCpOZmVbv0FA">Separate Conceptual Model and Encoding</a>:
+							OGC best practice and supports WP6. v[1.4/2.0]
+						</td>
+						<td>Christine&nbsp;Perey</td>
+						<td>Primarily editorial. No volunteers needed.</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Extension Components</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/10Es5_kTt06YxJP0uSUThDlKjfsZ2tHmdTZ49_BdHXSY">Extension Components</a>:
+							Proposed new Components that resolve many of the issues in our repo and coming from TB-19 and the MSF R/V group. This depends on WP1 - v1.3
+						</td>
+						<td>Mikel&nbsp;Salazar</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>CRS Definition in GeoPose</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/1eFKmgoHJUiq_YjmkohMZXaC_PTcl5xB_8M8PIRFk__Y">CRS Definition and Conformance Mechanisms</a>:
+							make Advanced GeoPose more usable
+						</td>
+						<td>Jeremy&nbsp;Morley</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Time Coordinate</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/10TWurB4hhN3XqDDXmp2d_bdlo2-yxtcowMC3rfkcteI">Time Coordinate</a>:
+							New TimeCoordinate property with a rational relationship to the existing TimeStamp property - v1.2
+						</td>
+						<td>Rob&nbsp;Smith</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>New Encodings</td>
+						<td>
+							<ahref="https://docs.google.com/presentation/d/19XcSGUbxcALgVUhkHJaH0SdQeki7KPweUh1Z68XcmDQ">Binary Encoding</a>: 
+							Procedure for creating binary encodings of Components
+							from their JSON encoding and converting from binary back to JSON. WP2 would give us the
+							cleanest path to adding a new encoding - v1.2.
+							<hr>
+							<a href="https://docs.google.com/presentation/d/19XcSGUbxcALgVUhkHJaH0SdQeki7KPweUh1Z68XcmDQ">Encoding for DDIL Environments</a>:
+							Procedure for creating encodings of	Components suitable for use in a denied, degraded, intermittent, or limited (DDIL) communications environment.
+						</td>
+						<td>Mikel&nbsp;Salazar<br/><br/><hr></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>Uncertainty</td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/1CiegJR5hZUjfBYWum4NCAzbw8W0JHElGz8iwr9CpX0Y">Uncertainty</a>: 
+							Specify precision and accuracy for numerical values - v1.2
+						</td>
+						<td>Steve&nbsp;Smyth </td>
+						<td>
+							<a href="https://docs.google.com/presentation/d/1wBE0h3Tx7nv7cvfUWK_H2Nl4EllGOSqRlPaWeYbFs2U">draft</a> is available for review.
+						</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Metaverse Standards Forum (MSF) Prototype Support</td>
+						<td>
+							MSF Prototype Support: New components. These all depend on WP1 - v1.3<br>
+							<a href="https://github.com/opengeospatial/GeoPose/issues/87">Depth Map</a> - a field of poses<br>
+							<a href="https://github.com/opengeospatial/GeoPose/issues/90">Camera Model</a> - a specialized frame transform<br>
+							<a href="https://github.com/opengeospatial/GeoPose/issues/88">Camera Calibration</a> - another specialized frame transform<br>
+							<a href="https://docs.google.com/presentation/d/1lcmajOxxkz8rOxM4IWhHRDd1AogKUo-eY7WLg0Uslkw">Target Set</a> - a set of discrete poses<br>
+							<a href="https://docs.google.com/presentation/d/1KYyzds0jPNk4lYvfj4pygd_TUcCnkgu5LUkpxtvjwMk">Radiance Field</a> - a full or partial radiance model<br>
+							<a href="https://docs.google.com/presentation/d/1i1765Idm-TdIvxZcy6tvmsW6CmZeviKA0xXk1fsCc2c">Links and Context</a>: Add new linking functionality and a &ldquo;sticky rule&rdquo; for the JSON encoding<br>
+						</td>
+						<td>Steve&nbsp;Smyth</td>
+						<td></td>
+					</tr>
+				</table>
+				
+				<h2 id="call">Call for Contributors</h2>
 				<p>
 					The GeoPose SWG seeks subject matter experts in any of the topics 
 					of the approved work packages to volunteer to collaborate with 
 					SWG members. If you are interested in contributing, please
 					contact a WP leader.
 				</p>
-		</div>
-	</main>
-</body>
+			</div>
+		</main>
+		<script>
+let nav = document.getElementById('nav');
+let navButton = document.getElementById('navButton');
+navButton.addEventListener('click', (e) => { nav.style.display = 'flex'; });
+nav.addEventListener('click', (e) => { nav.style.display = 'none'; });
+window.addEventListener('resize', (e) => { 
+	let landscape = window.innerWidth > window.innerHeight;
+	nav.style.display = landscape? 'flex' : 'none'; 
+	navButton.style.display = landscape? 'none' : 'block'; 
+});
+		</script>
+	</body>
 </html>
